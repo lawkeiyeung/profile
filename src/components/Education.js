@@ -45,7 +45,7 @@ const Education = () => {
               <p className="text-gray-500">Scholarship Awarded: University of Adelaide Global Citizens Scholarship</p>
             </div>
             <div className="absolute bottom-0 right-0 p-8">
-              <img src="/UoA_logo_col_vert.png" alt="Icon" className="w-40 h-auto" />
+              <img src="%PUBLIC_URL%//UoA_logo_col_vert.png" alt="Icon" className="w-40 h-auto" />
             </div>
           </div>
         </div>
