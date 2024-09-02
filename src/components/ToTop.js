@@ -12,7 +12,7 @@ const ToTop = () => {
     return (
         <i class="scroll-up" id="scroll-up" onClick={scrollToAbout}>
             <img
-                src="%PUBLIC_URL%//up-arrow.gif"
+                src="./up-arrow.gif"
                 class="socicon up-arrow"
                 alt="scroll-up"
             />
