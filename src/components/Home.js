@@ -45,10 +45,10 @@ const Home = () => {
                 <div className="rounded-lg flip-container" style={{ display: 'block', overflow: 'hidden', position: 'relative', width: '500px', height: '500px' }}>
                   <div className={`flip-card ${flipped ? 'flipped' : ''}`}>
                     <div className="flip-card-front p-4">
-                      <img style={{ display: 'block', width: '100%', height: '100%' }} src="%PUBLIC_URL%//icon_circle.png" role="presentation" alt="Icon" />
+                      <img style={{ display: 'block', width: '100%', height: '100%' }} src="%PUBLIC_URL%/icon_circle.png" role="presentation" alt="Icon" />
                     </div>
                     <div className="flip-card-back p-4">
-                      <img style={{ display: 'block', width: '100%', height: '100%' }} src="%PUBLIC_URL%//Linkedin-logo.png" role="presentation" alt="LinkedIn" onClick={handleClick} />
+                      <img style={{ display: 'block', width: '100%', height: '100%' }} src="%PUBLIC_URL%/Linkedin-logo.png" role="presentation" alt="LinkedIn" onClick={handleClick} />
                     </div>
                   </div>
                 </div>

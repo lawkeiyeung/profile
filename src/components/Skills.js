@@ -98,7 +98,7 @@ const Skills = () => {
 
         <div className="maccontainer z-20" style={{ overflow: 'hidden', position: 'relative' }}>
           <div className="image-wrapper">
-            <img src="%PUBLIC_URL%//macframe.png" alt="Macbook Frame" />
+            <img src="%PUBLIC_URL%/macframe.png" alt="Macbook Frame" />
           </div>
 
           <div className={`content ${fadeClass}`}>

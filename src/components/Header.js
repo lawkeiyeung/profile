@@ -26,7 +26,7 @@ const Header = () => {
         <nav className="items-center relative flex justify-between my-2">
           <a href="#home" className="flex items-center no-underline hover:no-underline">
             <div>
-              <img src="%PUBLIC_URL%//icon_circle_crop.png" alt="Icon" />
+              <img src="%PUBLIC_URL%/icon_circle_crop.png" alt="Icon" />
             </div>
             <span className="ml-4 font-semibold">Kei Yeung Law</span>
           </a>
@@ -44,7 +44,7 @@ const Header = () => {
               className="bulb group self-center flex items-center justify-center p-3 rounded hover:bg-neutral-muted text-inverted-muted hover:text-highlight focus:text-highlight transition duration-200"
             >
               <span className="sr-only">Toggle Theme</span>
-              <img src={theme === 'light' ?  "%PUBLIC_URL%//bulb.png":"%PUBLIC_URL%//bulb_on.png" } alt="Icon" />
+              <img src={theme === 'light' ?  "%PUBLIC_URL%/bulb.png":"%PUBLIC_URL%/bulb_on.png" } alt="Icon" />
             </button>
           </div>
         </nav>
